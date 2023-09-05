@@ -1,6 +1,6 @@
 
 
-const LOCALHOST = 'https://61e2-34-138-210-8.ngrok-free.app';
+const LOCALHOST = 'http://localhost';
 
 
 
