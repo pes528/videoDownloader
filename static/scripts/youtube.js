@@ -1,5 +1,5 @@
 
-const LOCALHOST = 'http://locahost';
+const LOCALHOST = 'http://127.0.0.1:3001';
 
 
 document.getElementById('descargar').addEventListener('click', async () =>{
