@@ -1,0 +1,40 @@
+{% extends "youtube/download.html" %}
+
+
+{% block content %}
+    <div class="loading" id="loading">
+        
+        <div class="carga">
+            
+        </div>
+        <div id="carga">descargando</div>
+    </div>
+    {% if datos['title'] %}
+        <form action="descMp3" method="POST" id="form">
+            <h1>link correcto</h1>
+            <h2 style="text-align: center;">{{ datos['title'] }}</h2>
+            
+        
+            <button type="submit" id="descargar" class="botonCss"> <strong>Descargar mp3</strong></button>
+
+
+        </form>
+        <form action="descMp4" method="POST" id="form2" class="listObj">
+            
+                
+                <div class="listaOpciones">
+                    
+                    {% for i in opt.keys() %}
+                
+                        <li> <button name="mp4" value="{{i}}" id="descargar2" class="botonCss"> {{i}}</button> </li>
+                    {% endfor %}
+                </div>
+                
+            
+        </form>
+        
+        
+    {% else %}
+        <h1 style="text-align: center;">Link incorrecto</h1>
+    {% endif %}
+{% endblock %}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    <title>TikTok Downloader</title>
+</head>
+<body>
+    <div class="container_tiktok">
+
+        <img id="image_tiktok" src="https://cdn.pixabay.com/photo/2021/01/30/06/42/tiktok-5962992_1280.png" alt="">
+
+        <div class="form">
+            <form  method="post" id="formt">
+                
+                <input type="text" name="linkTikTok" id="link" placeholder="link">
+                <button type="submit" class="boton_tiktok" id="tiktok"><strong>Descargar</strong></button>
+                
+            </form>
+            
+            <div>
+                <h1 id="message" style="color: white;text-align: center;" value="{{message}}">{{message}}</h1>
+            </div>
+            
+        </div>
+        <div style="width: 100%;">
+           <a href="/"> <button style="width: 50%; margin: 0 25%;" class="botonCss"><strong>volver</strong></button></a>
+        </div>
+        
+    </div>
+
+
+    <script src="{{url_for('static', filename='scripts/tiktok.js')}}"></script>
+</body>
+</html>

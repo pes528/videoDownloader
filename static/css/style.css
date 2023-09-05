@@ -1,0 +1,219 @@
+*{
+    box-sizing: border-box;
+    
+}
+html{
+
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.container{
+    width: 100%;
+    
+    height: auto;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+    align-content: center;
+    color:white;
+    font-size: 20px;
+}
+.body{
+    width: 80%;
+    display: flex;
+    margin:3rem 0 3rem 0;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    gap: 5px;
+    
+
+    
+}
+    #link{
+        border: none;
+        border-radius:10px ;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+    }
+    .botonCss{
+        background-color: orange;
+        border-radius: 10px;
+        font-size: 1rem;
+        border: none;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        
+    }
+        .botonCss:hover{
+            cursor: pointer;
+            background-color: aliceblue;
+            transition: all;
+            
+            transition-duration: 0.3s;
+        }
+
+.result{
+    width: 100%;
+}
+.loading{
+    display: none;
+    margin-top: 5rem;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+    
+}
+    .carga{
+        
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        background-color: aliceblue;
+        animation: load 1s infinite ;
+        box-shadow: 0 0 1rem white;
+    }
+    @keyframes load{
+        
+        
+        50%{
+            
+            width: 1rem;
+            height: 1rem;
+            box-shadow: 0 0 0 black;
+        }
+    } 
+
+
+
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    
+}
+    img{
+        width: 18rem;
+        height: 18rem;
+    }
+
+.listObj{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.listaOpciones{
+
+    width: 100%;
+    height: auto;
+    margin-top: 3px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+    justify-content: center;
+    align-items: center;
+    grid-auto-flow: dense;
+    grid-template-rows:auto;
+}
+    .listaOpciones li{
+        text-align: center;
+        list-style: none;
+    }
+    #descargar2{
+        font-size: 0.9rem;
+    }
+        
+
+footer{
+    margin-top: 2rem;
+    
+}
+/*============tiktok html=========*/
+.container_tiktok{
+    
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+    .boton_tiktok{
+        background-color: orange;
+        border-radius: 10px;
+        font-size: 1rem;
+        border: none;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+
+    }
+        .boton_tiktok:hover{
+            cursor: pointer;
+            background-color: aliceblue;
+            transition: all;
+            
+            transition-duration: 0.3s;
+        }
+    .image_tiktok{
+        animation: none;
+    }
+    @keyframes tt{
+        50%{
+            width: 300px;
+            height: 300px;
+        }
+    }
+
+@media (max-width:550px){
+    html{margin: 0;}
+    .container{
+        
+        flex-direction: column;
+        
+        font-size: 0.5rem;
+    }
+    .body{
+        width: auto;
+    }
+        #form1{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            gap:1rem;
+        }
+        .enviar{
+            width:60%;
+            margin:auto;
+            padding: 0.5rem;
+        }
+        #descargar, #descargar2{
+            font-size: 0.7rem;
+        }
+        .listaOpciones{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+    .container_tiktok{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+        .container_tiktok form{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+}
