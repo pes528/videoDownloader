@@ -1,7 +1,6 @@
 
 # Video downloader (tiktok, youtube)
-
-Descarga videos desde yotube (mp3, mp4, m4a, webm) y tiktok (sin marca de agua)
+Crea tu propio sitio web para descargar videos desde yotube (mp3, mp4, m4a, webm) y tiktok (sin marca de agua)
 
 
 ## Instalacion en linux (ubuntu)
@@ -32,8 +31,11 @@ Y los archivos javascript static/scripts/youtube.js y tiktok.js /const LOCALHOST
 
 ## Uso
 Despues de la instalacion, debes verificar que el servidor flask este funcionando correctamente (despues de seguir los pasos de instalacion)
-luego abre el link "http://127.0.0.1:3001" en tu navegador y listo !1
-
+luego abre el link "http://127.0.0.1:3001" en tu navegador y listo !!
 
 Para detener el servidor flask, preciona ctrl+c en la consola 
+
+## Author
+- Telegram : [@pes528](https://t.me/pes528)
+- github : [@pes528](https://github.com/pes528)
 
