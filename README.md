@@ -29,3 +29,11 @@ Y los archivos javascript static/scripts/youtube.js y tiktok.js /const LOCALHOST
 - ffmpeg
 - flask
 - yt-dlp
+
+## Uso
+Despues de la instalacion, debes verificar que el servidor flask este funcionando correctamente (despues de seguir los pasos de instalacion)
+luego abre el link "http://127.0.0.1:3001" en tu navegador y listo !1
+
+
+Para detener el servidor flask, preciona ctrl+c en la consola 
+
