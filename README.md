@@ -37,5 +37,5 @@ Para detener el servidor flask, preciona ctrl+c en la consola
 
 ## Author
 - Telegram : [@pes528](https://t.me/pes528)
-- github : [@pes528](https://github.com/pes528)
+
 
