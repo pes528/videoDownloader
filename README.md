@@ -1,6 +1,6 @@
 
 # Video downloader (tiktok, youtube)
-Crea tu propio sitio web para descargar videos desde yotube (mp3, mp4, m4a, webm) y tiktok (sin marca de agua)
+Herramienta para descargar videos desde yotube (mp3, mp4, m4a, webm) y tiktok (sin marca de agua)
 
 
 ## Instalacion en linux (ubuntu)
@@ -9,8 +9,8 @@ La instalacion puede variar de acuerdo
 a tu sistema operativo
 
 Detalles a tener en cuenta:
-El servidor corre en tu localhost con el puerto 3001, si deseamos modificar esto se puede hace desde app.py/app.run(localhost, port)
-Y los archivos javascript static/scripts/youtube.js y tiktok.js /const LOCALHOST = ''; 
+El servidor corre en el servidor local : puerto 3001, se puede hacer cambio del puerto desde app.py/app.run(localhost, port)
+Tambien los archivos javascript static/scripts/youtube.js y tiktok.js /const LOCALHOST = ''; 
 
 
 
@@ -30,10 +30,9 @@ Y los archivos javascript static/scripts/youtube.js y tiktok.js /const LOCALHOST
 - yt-dlp
 
 ## Uso
-Despues de la instalacion, debes verificar que el servidor flask este funcionando correctamente (despues de seguir los pasos de instalacion)
-luego abre el link "http://127.0.0.1:3001" en tu navegador y listo !!
+Despues de la instalacion, el servidor estara funcionando en la direccion web "http://127.0.0.1:3001" 
 
-Para detener el servidor flask, preciona ctrl+c en la consola 
+Para detener el servidor -> ctrl+c  
 
 ## Author
 - Telegram : [@pes528](https://t.me/pes528)
